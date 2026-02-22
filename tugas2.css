@@ -1,0 +1,163 @@
+@font-face {
+    font-family: popbold;
+    src: url(Poppins/Poppins-Bold.ttf);
+}
+
+/* body{ */
+    /* background-image: url(https://img.freepik.com/free-photo/border-from-tasty-dishes_23-2147778495.jpg?t=st=1741654645~exp=1741658245~hmac=7b2f44a3c0d4331dde7cd52314579fde19200c1c2805a00220b3005752bee705&w=1800); */
+    /* background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+} */
+
+.navbar{
+    background-color: white;
+}
+
+.nav-item:hover{
+    border-radius: 1px;
+    border-bottom: 3px solid #FFB22C;
+    padding: 1px 1px;
+}
+
+.logo{
+    display: flex;
+    align-items: start;
+    text-align: left;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.brand-name{
+   align-items: center;
+   text-align: center;
+   /* padding-left: 50px; */
+   font-size: 60px;
+   text-shadow: 2px;
+}
+
+.brand-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 40vh;
+    margin-top: 70px;
+}
+
+.horizontal-card{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 10px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.card-header{
+    background-color: #FFB22C;
+}
+    /* background-color: #FFB22C; */
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+    /* border-radius: 20px; */
+    /* margin-left: 30vh;
+    margin-right: 30vh; */
+    /* width: 50vh; */
+
+.card{
+    border-radius: 40px;
+    border-color: black;
+    background-color: black;
+    flex: 0 0 auto;
+    justify-content: center;
+}
+
+.card:hover{
+    transform: (scale(1.5));
+    transition: 0.3s(ease-in-out);
+    box-shadow: 0px 4px 4px 2px #FFB22C;
+}
+
+.card-menu{
+    background-image: linear-gradient(to right, black, #45474B);
+    border-radius: 40px;
+    flex: 0 0 auto;
+    justify-content: center;
+}
+
+.row:hover{
+    color: black;
+}
+
+.card-title{
+    color: #FFB22C;
+}
+
+.card-body{
+    color: white;
+    text-align: left;
+}
+
+.card-text{
+    text-align: center;
+    justify-content: left;
+    color: white;
+}
+
+.price{
+    color: black;
+    font-family: popbold;
+    text-align: center;
+    background-color: #FFB22C;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.card-text-table{
+    color: white;
+}
+
+.card-table{
+    justify-content: center;
+}
+
+.circle-bg{
+    display: inline-flex;
+    color: black;
+    font-family: popbold;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #FFB22C;
+    margin-top: 5px;
+}
+
+.table-name{
+    font-family: popbold;
+    color: #FFB22C;
+    text-align: center;
+}
+
+.kapasitas{
+    opacity: 70%;
+    text-align: center;
+    color: white;
+}
+
+.form-reservation{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
